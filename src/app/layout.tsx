@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     title: 'CONVERGED SERVICES',
     description:
       'Review our company, services, and products. Decide to work with us.',
-    url: 'https://cuong.tantran.dev',
+    url: 'https://www.csgroup.asia/',
     siteName: 'CONVERGED SERVICES',
     locale: 'vi_VN',
     type: 'website',
   },
-  themeColor: '#ffffff',
+  
 }
 
 export default function RootLayout({
