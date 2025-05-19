@@ -34,8 +34,8 @@ function Hero() {
             Chúng tôi mang đến giải pháp hội tụ công nghệ toàn diện: AI, chuyển đổi số, điện toán đám mây và dịch vụ CNTT, giúp doanh nghiệp phát triển linh hoạt và bền vững.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Tìm hiểu dịch vụ</Button>
-            <Button variant="secondary" href="/pricing">
+            <Button href="/services">Tìm hiểu dịch vụ</Button>
+            <Button variant="secondary" href="/contact">
               Liên hệ tư vấn
             </Button>
           </div>

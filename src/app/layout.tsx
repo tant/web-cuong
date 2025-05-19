@@ -33,34 +33,33 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <link
           rel="stylesheet"
           href="https://api.fontshare.com/css?f%5B%5D=switzer@400,500,600,700&amp;display=swap"
         />
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="The Radiant Blog"
-          href="/blog/feed.xml"
-        />
+
       </head>
       <body className="text-gray-950 antialiased">
-         <div className="relative bg-transparent rounded-4xl">
+        <div className="relative bg-transparent rounded-4xl">
           <Container className="relative">
             <Navbar
-                      // banner={
-                      //   <Link
-                      //     href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
-                      //     className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
-                      //   >
-                      //     Radiant raises $100M Series A from Tailwind Ventures
-                      //     Tôi thử gõ một cái gì tiếng việt xem sao 
-                      //     <ChevronRightIcon className="size-4" />
-                      //   </Link>
-                      // }
-                    />
+            // banner={
+            //   <Link
+            //     href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
+            //     className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
+            //   >
+            //     Radiant raises $100M Series A from Tailwind Ventures
+            //     Tôi thử gõ một cái gì tiếng việt xem sao 
+            //     <ChevronRightIcon className="size-4" />
+            //   </Link>
+            // }
+            />
           </Container>
-         </div>
+        </div>
         {children}
         <Footer />
       </body>
